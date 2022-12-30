@@ -12,13 +12,13 @@ export default function FeedPost(props) {
     <FeedPostContainer>
         <FeedPostSingle>
           <FeedPostProfile>
-          <img src={profile}/>
+          <img alt={profile}/>
           <h3>{props.name}<br/><span>{props.time}</span></h3>
           </FeedPostProfile>
 
           <FeedPostContent>
             <p>{props.content}</p>
-            <img src={pontes_bg}/>
+            <img alt={pontes_bg}/>
           </FeedPostContent>
         </FeedPostSingle>
       </FeedPostContainer>

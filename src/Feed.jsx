@@ -17,7 +17,7 @@ export default function Feed(){
   return(
     <FeedContainer>
         <FeedForm>
-          <img src={profile}/>
+          <img alt={profile}/>
           <input type='text' placeholder='No que você esta pensando?'/>
         </FeedForm>
         <FeedIcons>

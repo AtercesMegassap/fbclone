@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import {
   FeedContainer,
   FeedForm,
@@ -17,7 +18,7 @@ export default function Feed(){
   return(
     <FeedContainer>
         <FeedForm>
-          <img alt={profile}/>
+          <img src={profile}/>
           <input type='text' placeholder='No que você esta pensando?'/>
         </FeedForm>
         <FeedIcons>

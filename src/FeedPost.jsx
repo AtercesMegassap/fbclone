@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import {
   FeedPostContainer,
   FeedPostContent,
@@ -12,13 +13,13 @@ export default function FeedPost(props) {
     <FeedPostContainer>
         <FeedPostSingle>
           <FeedPostProfile>
-          <img alt={profile}/>
+          <img src={profile}/>
           <h3>{props.name}<br/><span>{props.time}</span></h3>
           </FeedPostProfile>
 
           <FeedPostContent>
             <p>{props.content}</p>
-            <img alt={pontes_bg}/>
+            <img src={pontes_bg}/>
           </FeedPostContent>
         </FeedPostSingle>
       </FeedPostContainer>
